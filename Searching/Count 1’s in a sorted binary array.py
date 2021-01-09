@@ -1,4 +1,4 @@
-# Question Link (GFG): 
+# Question Link (GFG): https://www.geeksforgeeks.org/count-1s-sorted-binary-array/
 
 '''
 Count 1’s in a sorted binary array
