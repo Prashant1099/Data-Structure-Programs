@@ -1,4 +1,4 @@
-// Question Link: https://leetcode.com/problems/binary-tree-postorder-traversal/submissions/
+// Question Link: https://leetcode.com/problems/binary-tree-postorder-traversal
 
 import java.util.ArrayList;
 import java.util.List;
