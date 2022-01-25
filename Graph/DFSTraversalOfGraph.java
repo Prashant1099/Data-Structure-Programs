@@ -28,7 +28,7 @@ class GFG {
                 adj.get(u).add(v);
                 adj.get(v).add(u);
             }
-            Solution obj = new Solution();
+            DFSTraversalOfGraph obj = new DFSTraversalOfGraph();
             ArrayList<Integer> ans = obj.dfsOfGraph(V, adj);
             for (int i = 0; i < ans.size(); i++)
                 System.out.print(ans.get(i) + " ");

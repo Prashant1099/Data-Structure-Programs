@@ -4,7 +4,9 @@
 Note: One can move from node u to node v only if there's an edge from u to v and find the BFS traversal of the graph starting from the 0th vertex, from left to right according to the graph. Also, you should only take nodes directly or indirectly connected from Node 0 in consideration.
 */ 
 
-import java.lang.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.io.*;
 class GFG
 {
@@ -27,7 +29,7 @@ class GFG
                 adj.get(u).add(v);
                 // adj.get(v).add(u);
             }
-            Solution obj = new Solution();
+            BFSTraversalOfGraph obj = new BFSTraversalOfGraph();
             ArrayList<Integer>ans = obj.bfsOfGraph(V, adj);
             for (int i =0 ;i < ans.size (); i++) 
                 System.out.print (ans.get (i) + " ");
