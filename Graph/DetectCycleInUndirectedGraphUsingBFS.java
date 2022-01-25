@@ -25,7 +25,7 @@ class GFG {
                 adj.get(u).add(v);
                 adj.get(v).add(u);
             }
-            DetectCycleInUndirectedGraph obj = new DetectCycleInUndirectedGraph();
+            DetectCycleInUndirectedGraphUsingBFS obj = new DetectCycleInUndirectedGraphUsingBFS();
             boolean ans = obj.isCycle(V, adj);
             if (ans)
                 System.out.println("1");
@@ -45,7 +45,7 @@ class Pair{
         this.parent = parent;
     }
 }
-class DetectCycleInUndirectedGraph {
+class DetectCycleInUndirectedGraphUsingBFS {
     // Function to detect cycle in an undirected graph.
     public boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj) {
         boolean []visit = new boolean[V];
