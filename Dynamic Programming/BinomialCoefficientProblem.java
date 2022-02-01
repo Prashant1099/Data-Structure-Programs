@@ -32,7 +32,7 @@ class BinomialCoefficientProblem{
     int nCr(int n, int r)
     {
         int [][]dp = new int[n+1][r+1];
-        int m = (int)10e9 + 7;
+        int m = 1000000007;
         
         for(int i=0; i<=n; i++){
             for(int j=0; j<=r; j++){
