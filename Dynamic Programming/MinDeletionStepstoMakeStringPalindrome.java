@@ -16,7 +16,7 @@ class GFG{
         while(t-- > 0){
             int n = Integer.parseInt(read.readLine());
             String str = read.readLine().strip();
-            MinInsertionStepstoMakeStringPalindrome ob = new MinInsertionStepstoMakeStringPalindrome();
+            MinDeletionStepstoMakeStringPalindrome ob = new MinDeletionStepstoMakeStringPalindrome();
             long ans = ob.minDeletions(str, n); 
             System.out.println(ans);
         }
@@ -25,7 +25,7 @@ class GFG{
 
 
 //User function Template for Java
-class MinInsertionStepstoMakeStringPalindrome 
+class MinDeletionStepstoMakeStringPalindrome 
 { 
     int minDeletions(String str, int n)
     {
