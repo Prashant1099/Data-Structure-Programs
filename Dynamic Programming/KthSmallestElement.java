@@ -41,7 +41,7 @@ class KthSmallestElement{
     public int kthSmallest(int[] arr, int l, int r, int k) 
     { 
         if(k>0 && k <= r-l+1){
-            int pos = partioning(arr, l, r);
+            int pos = partitioning(arr, l, r);
     
             if(pos-l == k-1) return arr[pos];
             else if(pos-l < k-1) return kthSmallest(arr, pos+1, r, k-pos+l-1);
@@ -51,7 +51,7 @@ class KthSmallestElement{
         return Integer.MAX_VALUE;
     } 
 
-    public static int partioning(int[] arr, int l, int r){
+    public static int partitioning(int[] arr, int l, int r){
         int pos = l;
         int pivot = arr[r];
 
