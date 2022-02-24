@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 // Question Link: https://leetcode.com/problems/single-number/
 
 /* Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
@@ -18,7 +22,6 @@ class SingleNumberProblem{
     }
 }
 
-}
 // Method 2 (Naive Approach)
 class SingleNumberProblem1 {
     public int singleNumber(int[] nums) {
